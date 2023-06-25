@@ -3,6 +3,7 @@ Enjoy this simple idea.<br>
 And it's not Ansible this time :) <br><br>
 It's a simple remote fact collector. <br>
 No stress due to it's simplicity and endless tuning possibility.
+
 ## Instruction. 
 Put the code below in a file named host_probe.sh and make sure to run
 ```
