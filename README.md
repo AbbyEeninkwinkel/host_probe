@@ -1,17 +1,33 @@
 <br> 
 Enjoy this simple idea.<br>
-And it's not Ansible this time :) <br>
-
-## This is it. 
-
-
+And it's not Ansible this time :) <br><br>
+It's a simple remote fact collector. <br>
+No stress due to it's simplicity and endless tuning possibility.
+## Instruction. 
+Put the code below in a file named host_probe.sh and make sure to run
 ```
+chmod u+x host_probe.sh
+```
+Create a file hosts.txt with you targets of investigation. <br>
+Should look like:
+```
+Server1
+Mycoolserver.test.com
+```
+Make sure you can ssh into your hosts using the names in hosts.txt, preferably with a key.<br>  
+With this set the code should work out of the box.<br>
+See the inline examples to tune your probe.<br>
+Watch out for \ and '" pitfall.<br> 
+A small wraning whould be mentioned: security was not my focus when writing this article.<br>
+<br>
+Happy probing!
+
 #!/bin/bash
 # Name: Host_probe
 # What it does: Host_probe is a very simple script to collect host data for any purpose 
 # Written by: Abby Eeninkwinkel
 # Version 2.4 Juni 2023 2.4 (release for community)
-# Todo: needs to collect possible errors values from remote
+# Todo: needs to collect possible error values from remote
 # Ideas: lots :)
 
 OLD_IFS="$IFS"
@@ -47,7 +63,7 @@ probe_value_action="date +'%Y-%m-%dT%H:%M:%S,%3N'"
 add_to_probe
 
 # Example 2: probe a remote environment variable. 
-# You must have "PermitUserEnvironment yes" in your remote ssh config file
+# You must have "PermitUserEnvironment yes" in your remote ssh config file. Security issue!
 # notice the escape \
 probe_key="remote_pwd"
 probe_value_action="printf \$PWD"
@@ -90,7 +106,7 @@ for host_nm in ${hosts[@]}; do
       # test/search for a field
       # notice that we use cut because of the current IFS 
       if [[ "$str" == "date "* ]]; then
-         printf "  <=Found a date field!"
+         printf "  <= Found a date field!"
          value=$(echo "${str}" | cut -d ' ' -f2)
          printf " with value: %s" "$value"
       fi
