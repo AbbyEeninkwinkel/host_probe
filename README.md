@@ -1,4 +1,3 @@
-<br> 
 Enjoy this simple idea.<br>
 It's a simple remote fact collector. <br>
 No stress due to it's simplicity and endless tuning possibility.
