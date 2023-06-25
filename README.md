@@ -1,20 +1,20 @@
 Enjoy this simple idea.<br>
 It's a simple remote fact collector. <br>
-No stress due to it's simplicity and endless tuning possibility.
+No stress due to it's simplicity and endless tuning possibilities.
 
 ## Instruction. 
-Put the code below in a file named <i>host_probe.sh</i> and make sure to run
+Clone de repo or put the code below in a file named <i>host_probe.sh</i> and make sure to run
 ```
 chmod u+x host_probe.sh
 ```
-Create a file hosts.txt with you targets of investigation. <br>
+Create a file (or edit) hosts.txt with you targets of investigation. <br>
 Should look like:
 ```
 Mycoolserver1.test.com
 Mycoolserver2.test.com
 ```
 Make sure you can ssh into your hosts using the names in hosts.txt, preferably with a key.<br>  
-With this set the code should work out of the box.<br>
+With this set up the code should work out of the box.<br>
 See the inline examples to tune your probe.<br>
 Watch out for \ and '" pitfall.<br> 
 A small warning should be mentioned: security was not my focus when writing this article.<br>
