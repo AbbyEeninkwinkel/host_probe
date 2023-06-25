@@ -3,7 +3,7 @@ It's a simple remote fact collector. <br>
 No stress due to it's simplicity and endless tuning possibilities.
 
 ## Instruction. 
-Clone de repo or put the code below in a file named <i>host_probe.sh</i> and make sure to run
+Clone this repo or put the code below in a file named <i>host_probe.sh</i> and make sure to run
 ```
 chmod u+x host_probe.sh
 ```
