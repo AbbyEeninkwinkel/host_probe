@@ -8,7 +8,7 @@ Clone this repo or put the code below in a file named <i>host_probe.sh</i> and m
 ```
 chmod u+x host_probe.sh
 ```
-Create a file (or edit) hosts.txt with you targets of investigation. <br>
+Create a file (or edit) hosts.txt with your targets of investigation. <br>
 Should look like:
 ```
 Mycoolserver1.test.com
