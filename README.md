@@ -19,7 +19,7 @@ Make sure you can ssh into your hosts using the names in hosts.txt, preferably w
 With this set the code should work out of the box.<br>
 See the inline examples to tune your probe.<br>
 Watch out for \ and '" pitfall.<br> 
-A small wraning whould be mentioned: security was not my focus when writing this article.<br>
+A small warning should be mentioned: security was not my focus when writing this article.<br>
 <br>
 Happy probing!
 
