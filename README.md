@@ -79,9 +79,9 @@ add_to_probe
 # Example 4: get the size of a remote directory
 # notice a return value should not have spaces 
 # awk should be available on the remote system
- probe_key="size_of_my_remote_home"
- probe_value_action="du -hs | awk '{print \$1}'"
- add_to_probe
+probe_key="size_of_my_remote_home"
+probe_value_action="du -hs | awk '{print \$1}'"
+add_to_probe
 
 # Example 5: get the size of multiple remote directories
 for item in /disk1 /disk2 /disk3; do
@@ -93,7 +93,6 @@ for item in /disk1 /disk2 /disk3; do
 echo "This how your probe looks like:"
 echo $probe
 echo " " 
-
 
 # Probing and working with the probed data
 IFS=$'\n'
