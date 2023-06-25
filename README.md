@@ -1,6 +1,7 @@
-Enjoy this simple idea.<br>
+Enjoy this easy tunable idea.<br>
 It's a simple remote fact collector. <br>
-No stress due to it's simplicity and endless tuning possibilities.
+No stress due to it's relative simplicity and endless tuning possibilities.<br>
+The probe doesn't write anything to the disks of your hosts, requires only a minimal level of authorization required for your probes and it cleany show up in the log files.<br>
 
 ## Instruction. 
 Clone this repo or put the code below in a file named <i>host_probe.sh</i> and make sure to run
@@ -24,7 +25,7 @@ Happy probing!
 ```
 #!/bin/bash
 # Name: Host_probe
-# What it does: Host_probe is a very simple script to collect host data for any purpose 
+# What it does: Host_probe is a relative simple script to collect host data for any purpose 
 # Written by: Abby Eeninkwinkel
 # Version 2.4 Juni 2023 2.4 (release for community)
 # Todo: needs to collect possible error values from remote
