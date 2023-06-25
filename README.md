@@ -12,8 +12,8 @@ chmod u+x host_probe.sh
 Create a file hosts.txt with you targets of investigation. <br>
 Should look like:
 ```
-Server1
-Mycoolserver.test.com
+Mycoolserver1.test.com
+Mycoolserver2.test.com
 ```
 Make sure you can ssh into your hosts using the names in hosts.txt, preferably with a key.<br>  
 With this set the code should work out of the box.<br>
