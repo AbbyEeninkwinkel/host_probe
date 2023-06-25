@@ -23,6 +23,7 @@ A small warning should be mentioned: security was not my focus when writing this
 <br>
 Happy probing!
 
+```
 #!/bin/bash
 # Name: Host_probe
 # What it does: Host_probe is a very simple script to collect host data for any purpose 
@@ -122,4 +123,4 @@ exit
 <HR>
 Abby Eeninkwinkel 2023 
 <hr>
-
+```
