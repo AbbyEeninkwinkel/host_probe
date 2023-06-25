@@ -1,6 +1,6 @@
 <br> 
 Enjoy this simple idea.<br>
-And not it's not Ansible this time :) <br>
+And it's not Ansible this time :) <br>
 
 ## This is it. 
 
