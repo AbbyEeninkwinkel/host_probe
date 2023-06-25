@@ -5,7 +5,7 @@ It's a simple remote fact collector. <br>
 No stress due to it's simplicity and endless tuning possibility.
 
 ## Instruction. 
-Put the code below in a file named host_probe.sh and make sure to run
+Put the code below in a file named <i>host_probe.sh</i> and make sure to run
 ```
 chmod u+x host_probe.sh
 ```
