@@ -98,7 +98,7 @@ IFS=$'\n'
 for host_nm in ${hosts[@]}; do
     printf "======= Running Probe for host $host_nm =======\n"   
     result=$(ssh $host_nm "$probe")
-    echo Result fo host nost_nm
+    echo Result for host nost_nm
     for element in ${result[@]};  do
       str="${element}"
       # print each return line    
